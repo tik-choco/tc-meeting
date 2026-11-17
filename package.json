@@ -1,0 +1,28 @@
+{
+  "name": "tc-meeting",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@tik-choco/mistai": "github:tik-choco-lab/mistai",
+    "@tik-choco/mistlib": "0.7.1",
+    "@tik-choco/mistlib-web": "0.3.0",
+    "lucide-preact": "^0.577.0",
+    "preact": "^10.29.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.5",
+    "@types/node": "^24.13.2",
+    "fake-indexeddb": "6.2.5",
+    "happy-dom": "^20.10.6",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1",
+    "vitest": "^4.1.9"
+  }
+}

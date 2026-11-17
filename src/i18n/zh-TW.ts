@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export const zhTW: Messages = {
+  readCorrection: '朗讀修正文', readAllCorrections: '朗讀所有修正文', stopReading: '停止朗讀', ttsLoading: '正在載入語音…',
+  ttsFallback: '無法使用設定的語音，正在使用瀏覽器語音。', ttsHeadphones: '麥克風可能會錄入播放的語音。請使用耳機。',
+  ttsTest: '測試語音', ttsTestSample: '這是用於朗讀修正後文字的語音範例。',
+  'error.tts-failed': '無法朗讀文字。請檢查語音設定後重試。',
+  'error.tts-unsupported': '此瀏覽器無法使用設定的語音。',
+  home: '會議', settings: '設定', theme: '切換佈景主題', light: '淺色', dark: '深色',
+  newMeeting: '新增會議', meeting: '會議', title: '標題', language: '辨識語言', auto: '自動偵測', source: '音訊來源', mic: '麥克風', 'mic+tab': '麥克風＋分頁音訊', microphone: '麥克風裝置', defaultMic: '系統預設', unnamedMic: '麥克風 {number}', refreshDevices: '重新整理麥克風清單', keepAudio: '轉錄後保留音訊', start: '開始錄音', importAudio: '匯入音訊檔案', importingHint: '音訊與影片檔案 · 自動分段處理', importing: '匯入中', cancel: '取消',
+  sttReady: '轉錄已就緒', sttMissing: '請設定語音辨識以轉錄會議。您可以先錄音，設定完成後再轉錄已儲存的音訊。', configure: '開啟 AI 設定', yourMeetings: '您的會議', emptyMeetings: '從這裡開始記錄對話。', emptyMeetingsHint: '開始錄音或匯入檔案，建立第一份逐字稿。', open: '開啟會議', delete: '刪除', deleteConfirm: '刪除此會議、逐字稿與音訊？此操作無法復原。', progress: '{done} / {total} 段', recording: '錄音中', paused: '已暫停', stopped: '已停止', interrupted: '已中斷', loading: '載入中…', pause: '暫停', resume: '繼續', stop: '停止錄音', continue: '繼續錄音', level: '麥克風音量', tabEnded: '分頁音訊分享已結束。麥克風仍在錄音。', recordingUnsupported: '此瀏覽器無法錄音。您仍可匯入音訊檔案。', liveMeeting: '開啟正在錄音的會議',
+  queue: '轉錄佇列', pendingCount: '{count} 待處理', activeCount: '{count} 處理中', failedCount: '{count} 失敗', queuePaused: '佇列已暫停', retryFailed: '重試失敗片段', retry: '重試', transcript: '逐字稿', search: '搜尋逐字稿', noSegments: '音訊儲存後，片段將顯示在這裡。', noMatches: '沒有符合的片段。', latest: '跳至最新', pending: '等待轉錄', transcribing: '轉錄中…', empty: '未偵測到語音', failed: '轉錄失敗', done: '已轉錄', edited: '已編輯', edit: '編輯逐字稿', save: '儲存', play: '播放音訊', audioMissing: '音訊已無法使用。', export: '匯出', copy: '複製文字', copied: '已複製', download: '下載 {format}',
+  summary: '會議紀錄', summaryHint: '產生概述、決策、行動項目與待解決問題。', generate: '產生紀錄', regenerate: '重新產生紀錄', stale: '產生紀錄後，逐字稿已發生變更。', mapProgress: '閱讀逐字稿 {done} / {total}', reduceProgress: '整合筆記 {done} / {total}', generating: '正在撰寫紀錄…', deleteAudio: '刪除已儲存的音訊', deleteAudioConfirm: '刪除此會議的所有音訊？待處理片段將無法轉錄。逐字稿將保留。',
+  appLanguage: '應用程式語言', appearance: '外觀', defaults: '錄音預設值', storage: '本機儲存空間', storageHint: '會議與音訊儲存在此瀏覽器中。請匯出需要保留到其他位置的資料。', storageUsage: '已用 {used} MB，共 {quota} MB', storageUnavailable: '無法取得儲存空間資訊。', persist: '要求永久儲存', persisted: '已啟用永久儲存', persistDenied: '未獲准使用永久儲存。空間不足時，瀏覽器可能會刪除資料。', aiSettings: 'AI 設定', summaryTask: '會議紀錄', summaryTip: '將逐字稿整理為結構化會議紀錄。', notFound: '找不到此會議。', back: '返回會議清單', errorTitle: '需要處理', dismiss: '關閉',
+  translationTask: '翻譯', translationTip: '翻譯逐字稿片段。未設定時使用會議紀錄的模型。',
+  proofreadTask: '校訂', proofreadTip: '使用原語言潤飾每段逐字稿。未設定時使用會議紀錄的模型。',
+  proofreadEnable: '校訂逐字稿', proofreading: '正在校訂…', proofreadFailed: '校訂失敗。', proofreadRetry: '重試校訂', noCorrections: '無須修改', correction: '校訂', includeCorrections: '包含校訂內容',
+  chunkLength: '錄音片段長度', chunkStandard: '標準（20–45 秒）', chunkFast: '快速（6–15 秒，較快顯示）', chunkFastBadge: '快速片段',
+  translationTarget: '翻譯目標語言', translationOff: '關閉', includeTranslation: '包含翻譯', translating: '翻譯中…', translationFailed: '翻譯失敗。', translationRetry: '重試翻譯',
+  translationDisplay: '逐字稿顯示', originalAndTranslation: '原文與翻譯', translationOnly: '僅顯示翻譯',
+  liveNotesFailed: '即時筆記更新失敗。', retryNotes: '重試筆記',
+  liveNotes: '即時筆記', liveNotesEnable: '持續更新即時筆記', liveNotesHint: '收到逐字稿片段後會逐步整理筆記。', liveNotesOffHint: '啟用即時筆記，可隨會議進展整理內容。', enableLiveNotes: '啟用即時筆記', liveNotesWaiting: '收到逐字稿後將在此顯示筆記。', updatingNotes: '正在更新筆記…', liveNotesUpdated: '{time} 更新 · {count} 段', rebuildNotes: '重新整理筆記', rebuildNotesConfirm: '清除目前的即時筆記並根據逐字稿重新整理？', assistNeedsModel: '請在 AI 設定中選擇文字模型，以使用即時筆記、翻譯和校訂。',
+  'error.stt-not-configured': '尚未設定語音辨識。請在設定中選擇語音模型。', 'error.stt-unresolved': '所選語音連線無法使用。請檢查 AI 設定。', 'error.stt-failed': '轉錄失敗。請檢查連線並重試。', 'error.llm-not-configured': '請在 AI 設定中選擇文字模型以產生紀錄。', 'error.llm-failed': '無法產生紀錄。請檢查連線並重試。', 'error.mic-denied': '麥克風權限遭拒。請在瀏覽器中允許存取後重試。', 'error.mic-unavailable': '麥克風無法使用。請選擇其他裝置。', 'error.tab-audio-missing': '未分享分頁音訊。請選擇分頁並啟用音訊分享。', 'error.recorder-unsupported': '此瀏覽器不支援錄音。', 'error.already-recording': '已有其他錄音正在進行。', 'error.decode-failed': '無法讀取此音訊檔案。請嘗試其他格式。', 'error.file-too-large': '檔案過大。請選擇不超過 512 MB 的檔案。', 'error.storage-full': '瀏覽器儲存空間已滿。請匯出會議並刪除不需要的音訊。', 'error.not-found': '找不到要求的會議或片段。', 'error.aborted': '操作已取消。', 'error.unknown': '無法完成操作。請重試。',
+};

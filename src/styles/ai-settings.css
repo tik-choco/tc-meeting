@@ -1,0 +1,17 @@
+/* Shared settings and their portals inherit the app's theme tokens. */
+:root {
+  --mistai-surface: var(--surface);
+  --mistai-surface-2: var(--surface-2);
+  --mistai-border: var(--border);
+  --mistai-border-strong: var(--border-strong);
+  --mistai-text: var(--text);
+  --mistai-text-muted: var(--text-muted);
+  --mistai-text-strong: var(--text);
+  --mistai-primary: var(--primary);
+  --mistai-primary-soft: var(--primary-soft);
+  --mistai-focus: var(--primary);
+  --mistai-focus-ring: var(--ring);
+  --mistai-danger-text: var(--danger-text);
+  --mistai-font-family: var(--sans);
+}
+.settings-inner .mistai-settings { width: 100%; max-height: none; overflow: visible; }

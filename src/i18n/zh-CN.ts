@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export const zhCN: Messages = {
+  readCorrection: '朗读修正文', readAllCorrections: '朗读所有修正文', stopReading: '停止朗读', ttsLoading: '正在加载语音…',
+  ttsFallback: '无法使用设置的语音，正在使用浏览器语音。', ttsHeadphones: '麦克风可能会录入播放的语音。请使用耳机。',
+  ttsTest: '测试语音', ttsTestSample: '这是用于朗读修正后文本的语音示例。',
+  'error.tts-failed': '无法朗读文本。请检查语音设置后重试。',
+  'error.tts-unsupported': '此浏览器无法使用设置的语音。',
+  home: '会议', settings: '设置', theme: '切换主题', light: '浅色', dark: '深色',
+  newMeeting: '新建会议', meeting: '会议', title: '标题', language: '识别语言', auto: '自动检测', source: '音频来源', mic: '麦克风', 'mic+tab': '麦克风＋标签页音频', microphone: '麦克风设备', defaultMic: '系统默认', unnamedMic: '麦克风 {number}', refreshDevices: '刷新麦克风列表', keepAudio: '转写后保留音频', start: '开始录音', importAudio: '导入音频文件', importingHint: '音频和视频文件 · 自动分段处理', importing: '导入中', cancel: '取消',
+  sttReady: '转写已就绪', sttMissing: '请设置语音识别以转写会议。您可以先录音，设置完成后再转写已保存的音频。', configure: '打开 AI 设置', yourMeetings: '您的会议', emptyMeetings: '从这里开始记录对话。', emptyMeetingsHint: '开始录音或导入文件，创建第一份转写。', open: '打开会议', delete: '删除', deleteConfirm: '删除此会议、转写和音频？此操作无法撤销。', progress: '{done} / {total} 段', recording: '录音中', paused: '已暂停', stopped: '已停止', interrupted: '已中断', loading: '加载中…', pause: '暂停', resume: '继续', stop: '停止录音', continue: '继续录音', level: '麦克风音量', tabEnded: '标签页音频共享已结束。麦克风仍在录音。', recordingUnsupported: '此浏览器无法录音。您仍可导入音频文件。', liveMeeting: '打开正在录音的会议',
+  queue: '转写队列', pendingCount: '{count} 待处理', activeCount: '{count} 处理中', failedCount: '{count} 失败', queuePaused: '队列已暂停', retryFailed: '重试失败片段', retry: '重试', transcript: '转写', search: '搜索转写', noSegments: '音频保存后，片段将显示在这里。', noMatches: '没有匹配的片段。', latest: '跳至最新', pending: '等待转写', transcribing: '转写中…', empty: '未检测到语音', failed: '转写失败', done: '已转写', edited: '已编辑', edit: '编辑转写', save: '保存', play: '播放音频', audioMissing: '音频已不可用。', export: '导出', copy: '复制文本', copied: '已复制', download: '下载 {format}',
+  summary: '会议纪要', summaryHint: '生成概述、决策、行动事项和待解决问题。', generate: '生成纪要', regenerate: '重新生成纪要', stale: '生成纪要后，转写已发生变化。', mapProgress: '阅读转写 {done} / {total}', reduceProgress: '整合笔记 {done} / {total}', generating: '正在撰写纪要…', deleteAudio: '删除已保存的音频', deleteAudioConfirm: '删除此会议的所有音频？待处理片段将无法转写。转写文本将保留。',
+  appLanguage: '应用语言', appearance: '外观', defaults: '录音默认设置', storage: '本地存储', storageHint: '会议和音频保存在此浏览器中。请导出需要保留到其他位置的数据。', storageUsage: '已用 {used} MB，共 {quota} MB', storageUnavailable: '无法获取存储空间信息。', persist: '请求持久存储', persisted: '已启用持久存储', persistDenied: '未获准使用持久存储。空间不足时，浏览器可能会删除数据。', aiSettings: 'AI 设置', summaryTask: '会议纪要', summaryTip: '将转写整理为结构化会议纪要。', notFound: '未找到此会议。', back: '返回会议列表', errorTitle: '需要处理', dismiss: '关闭',
+  translationTask: '翻译', translationTip: '翻译转写片段。未设置时使用会议纪要的模型。',
+  proofreadTask: '校订', proofreadTip: '使用原语言润色每段转写。未设置时使用会议纪要的模型。',
+  proofreadEnable: '校订转写内容', proofreading: '正在校订…', proofreadFailed: '校订失败。', proofreadRetry: '重试校订', noCorrections: '无需修改', correction: '校订', includeCorrections: '包含校订内容',
+  chunkLength: '录音片段长度', chunkStandard: '标准（20–45 秒）', chunkFast: '快速（6–15 秒，更快显示）', chunkFastBadge: '快速片段',
+  translationTarget: '翻译目标语言', translationOff: '关闭', includeTranslation: '包含翻译', translating: '翻译中…', translationFailed: '翻译失败。', translationRetry: '重试翻译',
+  translationDisplay: '转写显示', originalAndTranslation: '原文和翻译', translationOnly: '仅显示翻译',
+  liveNotesFailed: '实时笔记更新失败。', retryNotes: '重试笔记',
+  liveNotes: '实时笔记', liveNotesEnable: '持续更新实时笔记', liveNotesHint: '收到转写片段后会逐步整理笔记。', liveNotesOffHint: '启用实时笔记，可随会议进展整理内容。', enableLiveNotes: '启用实时笔记', liveNotesWaiting: '收到转写后将在此显示笔记。', updatingNotes: '正在更新笔记…', liveNotesUpdated: '{time} 更新 · {count} 段', rebuildNotes: '重新整理笔记', rebuildNotesConfirm: '清除当前实时笔记并根据转写重新整理？', assistNeedsModel: '请在 AI 设置中选择文本模型，以使用实时笔记、翻译和校订。',
+  'error.stt-not-configured': '尚未配置语音识别。请在设置中选择语音模型。', 'error.stt-unresolved': '所选语音连接不可用。请检查 AI 设置。', 'error.stt-failed': '转写失败。请检查连接并重试。', 'error.llm-not-configured': '请在 AI 设置中选择文本模型以生成纪要。', 'error.llm-failed': '无法生成纪要。请检查连接并重试。', 'error.mic-denied': '麦克风权限被拒绝。请在浏览器中允许访问后重试。', 'error.mic-unavailable': '麦克风不可用。请选择其他设备。', 'error.tab-audio-missing': '未共享标签页音频。请选择标签页并启用音频共享。', 'error.recorder-unsupported': '此浏览器不支持录音。', 'error.already-recording': '已有其他录音正在进行。', 'error.decode-failed': '无法读取此音频文件。请尝试其他格式。', 'error.file-too-large': '文件过大。请选择不超过 512 MB 的文件。', 'error.storage-full': '浏览器存储已满。请导出会议并删除不需要的音频。', 'error.not-found': '未找到请求的会议或片段。', 'error.aborted': '操作已取消。', 'error.unknown': '无法完成操作。请重试。',
+};
